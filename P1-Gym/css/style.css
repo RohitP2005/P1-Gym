@@ -1,0 +1,128 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("../img/bg.jpg");
+   background-size: 1363px;
+   background-repeat: no-repeat;
+}
+.left{
+    border: 2px solid;
+    width: 50px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.right{
+
+    display: inline;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 12px 48px;
+}
+.mid{
+    
+    display: block;
+    margin:auto;
+    width: 75%;
+    
+}
+img{
+    width: 50px;       
+    height: 50px;
+    display: inline;
+}
+.header{
+    position: sticky;
+    background-color: white;
+}
+.navbar{
+    display: inline-block;
+    margin: 0px;
+}
+.navbar li{
+    display: inline-block;        
+}
+.navbar li:hover,.active{
+    background-color: #c1c1c1;
+}
+.navbar li div a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Bruno Ace SC', cursive;
+   
+}
+.navbar li div{
+    width: 157px;
+    height: 42px;
+    text-align: center;
+    padding-top: 22px;
+    
+}
+.form {
+    display: flex;
+    flex-direction: row;
+}
+.search-field {
+    
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: solid 1px black;
+    border-radius: 100px; 
+    outline: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.cont{
+    color: white;
+    width: 494px;
+    height: 215px;
+    border: solid 2px white;
+    border-radius: 32px;
+    display: inline-block;
+    position: relative;
+    top: 66px;
+    left: 60px;
+    padding: 32px 75px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 31px;
+}
+.forms input{
+    display: inline-block;
+    width: 53%;
+    padding: 10px 35px 10px 15px;
+    border: solid 2px white;
+    border-radius: 10px;
+    outline: none;
+    margin: 5px 0px;
+    background-color: transparent;
+    color: white;
+}
+.btn{
+    margin: 8px;
+    padding: 5px 25px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 9px;
+}
+input::placeholder{
+    color: white;
+}
+.form input::placeholder{
+    color: black;
+}
