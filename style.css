@@ -2,10 +2,13 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: url("../img/bg.jpg");
-   background-size: cover;
-   background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("./public/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .left{
     border: 2px solid;
     width: 50px;
@@ -16,7 +19,6 @@ body{
     left: 5px;
 }
 .right{
-
     display: inline;
     position: absolute;
     top: 0px;
@@ -73,6 +75,7 @@ img{
     border: solid 1px black;
     border-radius: 100px; 
     outline: none;
+    
 }
 
 .search-button {
